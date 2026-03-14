@@ -1,0 +1,39 @@
+# NeuroClaw Bot — .gitignore
+
+# Models (large binary files — don't commit)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+
+# Project vector index (auto-generated)
+.agent_index/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+config.local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+_write_*.py
+*.tmp
