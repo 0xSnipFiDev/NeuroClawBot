@@ -104,7 +104,7 @@ neuroclaw-bot/
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/your-username/neuroclaw-bot.git
+git clone https://github.com/0xSnipFiDev/NeuroClawBot.git
 cd neuroclaw-bot
 ```
 
